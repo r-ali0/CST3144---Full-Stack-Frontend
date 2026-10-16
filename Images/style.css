@@ -1,0 +1,18 @@
+/* Custom Text Colours */
+.text-white {
+    color: white;
+}
+
+/* Custom Fonts */
+.yarndings-12-regular {
+  font-family: "Yarndings 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-caslon-condensed {
+  font-family: "Libre Caslon Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 11;
+  font-style: normal;
+}
