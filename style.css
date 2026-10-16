@@ -1,0 +1,38 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed&display=swap');
+
+/* Custom Text Colours */
+.text-white {
+    color: white;
+}
+
+/* Custom Fonts */
+.libre-caslon-condensed {
+  font-family: "Libre Caslon Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Applying Custom Font to Navbar items, Body */
+.navbar-brand {
+  font-family: "Libre Caslon Condensed", sans-serif;
+  font-size: large;
+  font-weight: 700;
+}
+
+.offcanvas-title {
+  font-family: "Libre Caslon Condensed", sans-serif;
+  font-size: large;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-family: "Libre Caslon Condensed", sans-serif;
+  font-size: medium;
+}
+
+.form-control {
+  font-family: "Libre Caslon Condensed", sans-serif;
+  font-size: medium;
+}
