@@ -10,8 +10,8 @@
 
     <!--BOOTSTRAP, FONT AWSOME AND CSS LINK-->
     <link href="style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!--GOOGLE FONTS-->
@@ -22,30 +22,39 @@
 <body>
 
     <!--NAVIGATION BAR = ABOUT, HOME, CLASSES, BOOKINGS-->
+    <!--"Logo"-->
     <nav class="navbar bg-success fixed-top">
   <div class="container-fluid bg-success p-2">
     <a class="navbar-brand text-white fw-bold" href="#">University Bookings
         <span class="px-1"><i class="fa-regular fa-heart"></i></span>
     </a>
+
+    <!--Navigation toggle button-->
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!--"Navigation Logo"-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">University Bookings
             <span class="px-1"><i class="fa-regular fa-heart"></i></span>
         </h5>
+
+        <!--Login Link-->
         <div class="p-2">
           <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li class="nav-item">
               <a class="nav-link" href="#">Log In</a>
             </li>
           </ul>
+
+          <!--Navigation "X" button-->
         </div>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
 
-      <!--NAVIGATION LINKS-->
+      <!--Navigation Links-->
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
@@ -74,10 +83,31 @@
 
 <!--HOME PAGE SECTION-->
 <section class="home-section">
-  <div class="">
-    
+  <div class="container">
+    <div class="row gy-5 align-items-center mt-5 p-5">
+
+        <!--Home page welcome message-->
+      <div class="col-md-6">
+        <div class="home-info text-center text-lg-start">
+          <h1>Welcome to University Bookings.</h1>
+          <p>There are many classes to choose from. Book your classes today!</p>
+          <button class="btn btn-success text-white mt-3">Log In!</button>
+        </div>
+      </div>
+
+        <!--University Image-->
+        <div class="col-md-6">
+          <div class="uni-image">
+            <img src="Images/UniversityImage.jpg" alt="University Image" width="500" height="300" class="rounded">
+          </div>
+        </div>
+
+    </div>
   </div>
 </section>
+
+<!--ABOUT SECTION-->
+
 
     
 </body>
