@@ -36,3 +36,13 @@
   font-family: "Libre Caslon Condensed", sans-serif;
   font-size: medium;
 }
+
+/* Custom Background */
+.home-section {
+  background-image: url("Images/LeavesBackgroundImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 100vh;
+}
