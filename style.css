@@ -39,20 +39,177 @@
 
 /* Home Page custom Styling */
 .home-section {
-  background-image: url("Images/LeavesBackgroundImage.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+   
   background-size: cover;
   background-repeat: no-repeat;
   background-position: fixed;
   width: 100%;
   min-height: 91vh;
   font-family:"Libre Caslon Condensed", sans-serif;
+
 }
 
-.home-section .container {
-  position: relative;
-}
-
-.uni-image img {
+.edu-image img {
   max-width: 100%;
   height: auto;
+}
+
+/* About Section custom Styling */
+.about-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+/* Activities custom Styling */
+
+.drama-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.com-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.art-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.carp-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.culi-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.sci-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.dance-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.sport-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.fash-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.textile-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
 }
