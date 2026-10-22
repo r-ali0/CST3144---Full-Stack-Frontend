@@ -418,35 +418,50 @@
 </section>
 
 
-
 <!--LOGIN FORM SECTION-->
 <section class="login-section">
   <div class="container">
-    <div class="justify-content-center mt-5 p-5">
+    <div class="row justify-content-center mt-5 p-5">
 
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-8 col-lg-6">
 
-        <h1 class="pt-4 fw-bold text-center text-success">Login</h1>
+        <h1 class="fw-bold text-center text-success">Login</h1>
 
         <!--Email Input-->
-        <div class="pt-4">
-          <div class="mb-3 row">
-            <h5 class="text-center text-muted p-1">Email</h5>
+        <div class="pt-2">
+          <div class="row mb-3 justify-content-center">
             <div class="col-sm-10">
-              <input type="email" class="form-control outline-success" id="inputEmail">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <input type="email" class="form-control outline-success" id="inputEmail" placeholder="Email">
+              </div>
            </div>
         </div>
 
         <!--Password Input-->
-        <div class="mb-3 row">
-          <h5 class="text-center text-muted p-4">Password</h5>
+      <div>
+        <div class="row mb-3 justify-content-center">
           <div class="col-sm-10">
-            <input type="password" class="form-control outline-success" id="inputPassword">
+            <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-lock"></i>
+                </span>
+                <input type="password" class="form-control outline-success" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <!--Registration Link-->
+          <div class="text-center">
+            <p>Don't Have an Account? <a class="reg-link" href="#">Register Now!</a></p>
           </div>
 
           <!--Login Button-->
-          <div class="text-center p-4">
-            <button class="btn btn-success">Log In</button>
+          <div class="text-center">
+            <button class="btn btn-success mt-3">Log In</button>
           </div>
         </div>
 
@@ -456,13 +471,84 @@
   </div>
 </section>
 
+
 <!--REGISTER SECTION-->
-<section class="register-section">
+<section class="reg-section">
   <div class="container">
-    <div class="row gy-5 align-items-center mt-5 p-5">
+    <div class="row justify-content-center mt-5 p-5">
 
-      <div class="col-md-6">
+      <div class="col-md-8 col-lg-6">
 
+        <h1 class="fw-bold text-center text-success">Register</h1>
+
+        <!--Name Input-->
+        <div class="pt-2">
+          <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-circle-user"></i>
+                </span>
+                <input type="text" class="form-control outline-success" id="inputName" placeholder="Name">
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <!--Email Input-->
+        <div>
+          <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <input type="email" class="form-control outline-success" id="inputEmail" placeholder="Email">
+              </div>
+            </div>
+          </div>
+       </div>
+
+            <!--Password Input-->
+        <div>
+          <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-lock"></i>
+                </span>
+                <input type="password" class="form-control outline-success" id="inputPass" placeholder="Password">
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <!--Confirm Password Input-->
+        <div>
+          <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-lock"></i>
+                </span>
+                <input type="text" class="form-control outline-success" id="inputCon" placeholder="Confirm Password">
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!--Login Link-->
+          <div class="text-center">
+            <p>Have an Account? <a class="log-link" href="#">Log In!</a></p>
+          </div>
+
+          <!--Register Button-->
+          <div class="text-center">
+            <button class="btn btn-success mt-1">Register</button>
+          </div>
+        </div>
+
+      </div>
       </div>
     </div>
   </div>

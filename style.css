@@ -230,13 +230,61 @@
 }
 
 .login-section .form-control {
-  width: 100% !important;
+  width: 60% !important;
   margin: auto;
   border: 2px solid rgb(78, 104, 78);
   border-radius: 10px;
 }
 
+.login-section .reg-link {
+  color: rgb(44, 121, 44);
+}
+
 .login-section .form-control:focus {
+  border-color:  rgb(61, 137, 61);
+  box-shadow: none !important;
+  outline: none;
+}
+
+.login-section .input-group-text {
+  background-color: rgb(68, 116, 77);
+  border: 2px solid rgb(68, 116, 77);
+  color: white;
+}
+
+/* Register form Section custom Styling */
+.reg-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large; 
+}
+
+.reg-section .log-link {
+   color: rgb(44, 121, 44);
+}
+
+.reg-section .input-group-text {
+  background-color: rgb(68, 116, 77);
+  border: 2px solid rgb(68, 116, 77);
+  color: white;
+}
+
+.reg-section .form-control {
+  width: 60% !important;
+  margin: auto;
+  border: 2px solid rgb(78, 104, 78);
+  border-radius: 10px;
+}
+
+.reg-section .form-control:focus {
   border-color:  rgb(61, 137, 61);
   box-shadow: none !important;
   outline: none;
