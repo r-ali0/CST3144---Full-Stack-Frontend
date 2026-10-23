@@ -1,9 +1,18 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed&display=swap');
 
+/* Body Colour */
+.body-Lgreen {
+  background-color: rgb(231, 246, 233);
+}
+
 /* Custom Text Colours */
 .text-white {
     color: white;
+}
+
+.text-green {
+  color: rgb(46, 121, 69);
 }
 
 /* Custom Fonts */
@@ -288,4 +297,62 @@
   border-color:  rgb(61, 137, 61);
   box-shadow: none !important;
   outline: none;
+}
+
+/* Class Display and Checkout system Styling */
+.class-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large; 
+}
+
+.class-section .input-group-text {
+  background-color: rgb(68, 116, 77);
+  border: 2px solid rgb(68, 116, 77);
+  color: white;
+}
+
+.class-section .input-group {
+  width: 70% !important;
+  margin: auto;
+  border: 2px solid rgb(78, 104, 78);
+  border-radius: 10px;
+}
+
+.class-section .option:hover {
+  background-color: rgb(44, 121, 44) !important;
+  color:white !important;
+}
+
+.class-section .input-group-text:focus {
+  border-color:  rgb(61, 137, 61);
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.class-section .card {
+  overflow: hidden;
+}
+
+/* Settings Custom Styling */
+.set-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large; 
 }

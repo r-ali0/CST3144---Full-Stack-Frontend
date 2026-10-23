@@ -1,0 +1,7 @@
+ <!--Shopping Cart-->
+       <div class="col-md-4">
+        <button class="btn btn-success text-white">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+       </div>
+      </div>
