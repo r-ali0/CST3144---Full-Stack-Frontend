@@ -362,12 +362,12 @@
 }
 
 .book-card {
-  height: 150px;
+  height: 250px;
   overflow-y: hidden;
 }
 
 .book-card .card-body {
-  height: 200px;
+  height: 250px;
   overflow-y: auto;
   border-bottom-right-radius: 15px;
 }
