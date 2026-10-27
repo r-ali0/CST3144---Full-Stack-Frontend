@@ -46,6 +46,10 @@
   font-size: medium;
 }
 
+.check-button {
+  font-family: "Libre Caslon Condensed", sans-serif;
+}
+
 /* Home Page custom Styling */
 .home-section {
   background: linear-gradient(rgba(255, 255, 255, 0.4),
@@ -340,6 +344,32 @@
 
 .class-section .card {
   overflow: hidden;
+}
+
+/* Bookings Custom Styling */
+.book-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.4)),
+   url("Images/LeavesBackgroundImage.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+  min-height: 91vh;
+  font-family:"Libre Caslon Condensed", sans-serif;
+  font-size: large;
+}
+
+.book-card {
+  height: 150px;
+  overflow-y: hidden;
+}
+
+.book-card .card-body {
+  height: 200px;
+  overflow-y: auto;
+  border-bottom-right-radius: 15px;
 }
 
 /* Settings Custom Styling */
